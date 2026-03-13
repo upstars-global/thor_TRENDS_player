@@ -1,0 +1,17 @@
+name = "vue-tiktok-landing"
+main = "dist/index.html"
+compatibility_date = "2024-09-24"
+
+# R2 bucket configuration
+[[r2_buckets]]
+binding = "R2_BUCKET"
+bucket_name = "winspirits-nl"
+preview_bucket_name = "winspirits-nl"
+
+# Note: Sensitive environment variables should be set using Cloudflare Dashboard or wrangler CLI
+# Use: wrangler secret put <KEY_NAME>
+# Required secrets:
+# - R2_ACCOUNT_ID
+# - R2_ACCESS_KEY_ID
+# - R2_SECRET_ACCESS_KEY
+# - R2_ENDPOINT
