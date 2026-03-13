@@ -1,4 +1,4 @@
-# Vue TikTok Landing
+# Thor Video Player
 
 Лендінг сторінка у стилі TikTok для демонстрації ігрових відео, побудована на Vue 3 + Vite.
 
